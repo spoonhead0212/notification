@@ -5,25 +5,159 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Notifications page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main>
+    <div class="container">
+      <div class="space-flex notify">
+        <div class="flex note">
+          <p>Notifications</p>
+          <span class="unread"></span>
+        </div>
+        <p class="mark">Mark all as read</p>
+      </div>
 
-  Notifications 3
+      <div class="new-notification">
+        <div class="just-flex">
+          <img src="" alt="profile picture" width="50px" style="margin-right: 1rem; border-radius: 50%;" class="profile-img">
+          <div class="test">
+            <div class="top">
+              <p>
+                <span class="name"></span>
+                <span class="note-type">reacted to your recent post</span>
+                <span class="headline">My first tournament today!</span>
+              </p>
+            </div>
+            <span class="time">1min ago</span>
+          </div>
+          <!-- <div class="nottie"> -->
+            <span class="dot"></span>
+          <!-- </div> -->
+        </div>
+      </div>
 
-  Mark all as read
+      <div class="new-notification">
+        <div class="just-flex">
+          <img src="" alt="profile picture" width="50px" style="margin-right: 1rem; border-radius: 50%;" class="profile-img">
+          <div>
+            <div class="top">
+              <p >
+                <span class="name"></span>
+                <span class="note-type">followed you</span>
+              </p>
+            </div>
+            <span class="time">5min ago</span>
+          </div>
+          <span class="dot"></span>
+        </div>
+      </div>
 
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
+      <div class="new-notification">
+        <div class="just-flex">
+          <img src="" alt="profile picture" width="50px" style="margin-right: 1rem; border-radius: 50%;" class="profile-img">
+          <div>
+            <div class="top">
+              <p>
+                <span class="name"></span>
+                <span class="note-type">Has joined your group</span>
+                <span class="headline-blue">Chess Club</span>
+              </p>
+            </div>
+            <span class="time">5min ago</span>
+          </div>
+          <span class="dot"></span>
+        </div>
+      </div>
 
-  Angela Gray followed you
+      <div class="new-notification">
+        <div class="just-flex">
+          <img src="" alt="profile picture" width="50px" style="margin-right: 1rem; border-radius: 50%;" class="profile-img">
+          <div class="chill">
+            <div class="top">
+              <p>
+                <span class="name"></span>
+                <span class="note-type">Sent you a private message</span>
+              </p>
+              
+              <!-- <p class="headline-blue">Chess Club</p> -->
+            </div>
+            <span class="time">5days ago</span>
+          </div>
+          <span class="dot"></span>
+        </div>
+        <div class="message">
+          <div class="msg">
+            <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and   I'm already having lots of fun and improving my game.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="new-notification">
+        <div class="just-flex">
+          <img src="" alt="profile picture" width="50px" style="margin-right: 1rem; border-radius: 50%;" class="profile-img">
+          <div>
+            <div class="top">
+              <p>
+                <span class="name"></span>
+                <span class="note-type">Commented on your picture</span>
+              </p>
+              <!-- <p class="headline-blue">Chess Club</p> -->
+            </div>
+            <span class="time">5days ago</span>
+          </div>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <div class="new-notification">
+        <div class="just-flex">
+          <img src="" alt="profile picture" width="50px" style="margin-right: 1rem; border-radius: 50%;" class="profile-img">
+          <div>
+            <div class="top">
+              <p>
+                <span class="name"></span>
+                <span class="note-type">reacted to your recent post</span>
+                <span class="headline">5 end-game strategies to increase your win rate</span>
+              </p>
+            </div>
+            <span class="time">5days ago</span>
+          </div>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <div class="new-notification">
+        <div class="just-flex">
+          <img src="" alt="profile picture" width="50px" style="margin-right: 1rem; border-radius: 50%;" class="profile-img">
+          <div>
+            <div class="top">
+              <p>
+                <span class="name"></span>
+                <span class="note-type">Left the group of</span>
+                <span class="headline-blue">Chess Club</span>
+              </p>
+            </div>
+            <span class="time">5days ago</span>
+          </div>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+   
+
+  
+
+    
+  
+
+  <!-- Angela Gray followed you
   5m ago
 
   Jacob Thompson has joined your group Chess Club
@@ -41,11 +175,12 @@
   2 weeks ago
 
   Anna Kim left the group Chess Club
-  2 weeks ago
+  2 weeks ago -->
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
+  <script src="script.js"></script>
 </body>
 </html>
